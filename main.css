@@ -1,0 +1,100 @@
+body {
+    font-family:Harir ;
+    background: rgb(248, 238, 222);
+}
+
+p{
+    color: rgb(248, 238, 222);
+}
+.main{
+    overflow: auto;
+    text-align: center;
+    background-color: rgb(107, 78, 69);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.menu{
+    background-color: rgb(248, 238, 222);
+    text-align: center;
+}
+.menu ul {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-decoration: none;
+    
+}
+.menu li {
+    display: inline-block;
+    text-align: center;
+    
+}
+.menu li a {
+    display: inline-block;
+    height: auto;
+    width: 150px;
+    color: rgb(248, 238, 222);
+    background-color: rgb(107, 78, 69);
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+}
+.menu li a:hover {
+    background-color:rgb(222, 201, 178);
+}
+.footer {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: rgb(107, 78, 69);
+    text-align: center;
+}
+.footer ul {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    
+}
+.footer li {
+    display: inline-block;
+    text-align: center;
+}
+.footer li a {
+    display: inline-block;
+    height: auto;
+    width: auto;
+    color: rgb(107, 78, 69);
+    background-color: rgb(248, 238, 222);
+    padding: 10px;
+    margin: 4px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.footer li a:hover{
+    background-color: rgb(222, 201, 178);
+}
+
+.photos {
+    overflow: auto;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+    background-color: rgb(248, 238, 222);
+}
+.photos img {
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(107, 78, 69);
+    border-radius: 6px;
+    margin: 2px;
+    object-fit: cover;
+    object-position: top;
+}
+
